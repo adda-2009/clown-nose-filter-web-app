@@ -1,0 +1,33 @@
+h3
+{
+font-size: 25px !important;
+}
+.btn-success:hover
+{
+background-color: red ;
+}
+canvas
+{
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example 
+{
+from { box-shadow: 1px 1px 38px red; }    
+to { box-shadow: 1px 1px 38px yellow; }
+
+100%{background-color:#ffffff;} 		 
+95%{background-color:#e6eeff;} 		 
+90%{background-color:#ccddff;}
+85%{background-color:#b3ccff;}
+80%{background-color:#99bbff;}
+75%{background-color:#80aaff;}
+70%{background-color:#6699ff;}
+95%{background-color:#e6ffff;}
+90%{background-color:#ccffff;}
+85%{background-color:#b3ffff;}
+80%{background-color:#99ffff;}
+75%{background-color:#80ffff;}
+70%{background-color:#66ffff;}
+}
